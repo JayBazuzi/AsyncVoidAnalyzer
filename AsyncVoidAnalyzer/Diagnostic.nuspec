@@ -6,7 +6,7 @@
     <title>AsyncVoidAnalyzer</title>
     <authors>jay@bazuzi.com</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Turn 'async void' in to an error. This is especially important for 'async' lambdas.</description>
+    <description>Turn 'async void' in to an warning. This is especially important for 'async' lambdas.</description>
     <tags>AsyncVoidAnalyzer, analyzers</tags>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="" />
