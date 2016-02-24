@@ -1,0 +1,19 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>AsyncVoidAnalyzer</id>
+    <version>0.0.0-beta</version>
+    <title>AsyncVoidAnalyzer</title>
+    <authors>jay@bazuzi.com</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Turn 'async void' in to an error. This is especially important for 'async' lambdas.</description>
+    <tags>AsyncVoidAnalyzer, analyzers</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="AsyncVoidAnalyzer.dll" target="analyzers\dotnet\cs" />
+    <file src="tools\*.ps1" target="tools\" />
+  </files>
+</package>
